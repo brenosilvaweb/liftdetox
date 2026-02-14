@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compra Confirmada</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        background: #ffffff;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        max-width: 500px;
+        text-align: center;
+        animation: fadeIn 0.8s ease-in-out;
+    }
+
+    .check {
+        font-size: 60px;
+        color: #28a745;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        color: #28a745;
+        margin-bottom: 15px;
+    }
+
+    p {
+        color: #444;
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+
+    .info {
+        background: #f4f6f8;
+        padding: 15px;
+        border-radius: 10px;
+        margin-top: 20px;
+        font-size: 14px;
+        color: #333;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 25px;
+        padding: 12px 25px;
+        background: #28a745;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 30px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background: #218838;
+        transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+</style>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="check">✔</div>
+    <h1>Parabéns pela sua compra!</h1>
+    <p>Sua compra foi realizada com sucesso.</p>
+
+    <p>Em instantes você receberá um <strong>e-mail com todos os dados da sua compra</strong>, incluindo informações de pagamento, confirmação e próximos passos.</p>
+
+    <div class="info">
+        📧 Verifique também sua caixa de spam ou lixo eletrônico, caso não encontre o e-mail na caixa principal.
+    </div>
+
+    <p>Se tiver qualquer dúvida, entre em contato com o suporte informado no e-mail de confirmação.</p>
+
+    <a href="/" class="btn">Voltar ao site</a>
+</div>
+
+</body>
+</html>
